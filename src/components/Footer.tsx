@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-slalom-navy text-white">
+    <footer className="bg-slalom-navy text-white dark:bg-black transition-colors duration-200">
       <div className="section-container py-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
