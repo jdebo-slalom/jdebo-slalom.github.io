@@ -53,8 +53,8 @@ const AIAdvances: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Recent Advances in Generative AI</h2>
           <p className="text-lg text-slalom-gray max-w-3xl mx-auto">
-            The field of generative AI is evolving rapidly, with breakthroughs that are transforming 
-            what's possible in technology and business.
+            AI isn't standing still - it's sprinting ahead! These recent breakthroughs are 
+            changing the game for businesses that want to stay competitive in today's tech landscape.
           </p>
         </div>
         
