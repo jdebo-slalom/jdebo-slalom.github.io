@@ -14,7 +14,7 @@ const useCases: UseCase[] = [
     id: 1,
     industry: 'Healthcare',
     title: 'Medical Documentation Assistant',
-    description: 'AI systems that can listen to doctor-patient conversations and automatically generate clinical notes, reducing administrative burden and allowing healthcare providers to focus more on patient care.',
+    description: 'Think of it as a super-smart medical scribe that listens to doctor-patient talks and writes up all the notes automatically. Doctors spend less time typing and more time healing.',
     benefits: [
       'Reduces documentation time by up to 70%',
       'Improves accuracy of medical records',
@@ -26,7 +26,7 @@ const useCases: UseCase[] = [
     id: 2,
     industry: 'Financial Services',
     title: 'Personalized Financial Advice',
-    description: 'AI-powered platforms that analyze individual financial data and market trends to provide customized investment strategies, budget recommendations, and financial planning advice.',
+    description: 'Like having a financial advisor in your pocket 24/7. These AI tools look at your money situation and the market to give you personalized advice on investing, saving, and planning - no judgment, just smart guidance.',
     benefits: [
       'Democratizes access to financial guidance',
       'Adapts recommendations based on changing circumstances',
@@ -38,7 +38,7 @@ const useCases: UseCase[] = [
     id: 3,
     industry: 'Retail',
     title: 'Dynamic Product Descriptions',
-    description: 'Generative AI that creates unique, SEO-optimized product descriptions at scale, tailored to different customer segments and automatically updated based on inventory changes and seasonal trends.',
+    description: 'Say goodbye to boring product descriptions! This AI writes thousands of fresh, engaging product blurbs that appeal to different customers and automatically update with the seasons. Your copywriters can finally take that vacation.',
     benefits: [
       'Increases conversion rates with targeted messaging',
       'Reduces time-to-market for new products',
@@ -50,7 +50,7 @@ const useCases: UseCase[] = [
     id: 4,
     industry: 'Manufacturing',
     title: 'Predictive Maintenance Insights',
-    description: 'AI systems that analyze sensor data from equipment to predict failures before they occur and generate detailed maintenance recommendations including step-by-step repair instructions.',
+    description: 'Machines breaking down unexpectedly is so last century! This AI listens to your equipment and tells you "Hey, this part is going to fail next month" - then gives you a simple repair guide to fix it before disaster strikes.',
     benefits: [
       'Reduces unplanned downtime by up to 50%',
       'Extends equipment lifespan',
@@ -62,7 +62,7 @@ const useCases: UseCase[] = [
     id: 5,
     industry: 'Education',
     title: 'Adaptive Learning Content',
-    description: 'Generative AI that creates personalized educational materials and exercises based on individual student\'s learning style, pace, and areas needing improvement.',
+    description: 'Every student learns differently, and now teaching materials can adapt automatically! This AI creates custom lessons that match each student\'s style, pace, and needs - like having a tutor who knows exactly how to help everyone succeed.',
     benefits: [
       'Addresses diverse learning needs in the classroom',
       'Provides immediate, constructive feedback',
@@ -74,7 +74,7 @@ const useCases: UseCase[] = [
     id: 6,
     industry: 'Legal',
     title: 'Contract Analysis & Generation',
-    description: 'AI tools that can review complex legal documents to identify risks and opportunities, suggest modifications, and generate contract language tailored to specific business requirements.',
+    description: 'Legal documents are a headache no more! This AI reads through the fine print at lightning speed, flags potential problems, suggests improvements, and can even write custom contract language that protects your interests without the billable hours.',
     benefits: [
       'Accelerates contract review process by 80%',
       'Ensures consistent application of legal standards',
@@ -93,8 +93,8 @@ const UseCases: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Transformative Use Cases</h2>
           <p className="text-lg text-slalom-gray max-w-3xl mx-auto">
-            Generative AI is creating new possibilities across industries. Explore how these 
-            technologies are being applied to solve real business challenges.
+            AI isn't just for tech companies anymore. Click through these examples to see 
+            how businesses just like yours are using AI to solve real problems today.
           </p>
         </div>
         
