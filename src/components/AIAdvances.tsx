@@ -11,37 +11,37 @@ const advances: Advance[] = [
   {
     id: 1,
     title: 'Large Language Models',
-    description: 'Advanced models like GPT-4, Claude, and PaLM can understand and generate human-like text, translate languages, write different kinds of creative content, and answer questions in an informative way.',
+    description: 'Modern AI models can write, translate, and create content that sounds human. They understand context, answer complex questions, and handle conversations naturally without complex programming.',
     icon: '🤖'
   },
   {
     id: 2,
     title: 'Multimodal AI',
-    description: 'Systems that can process and generate multiple types of data including text, images, audio, and video, enabling more comprehensive understanding and creation capabilities.',
+    description: 'These versatile AI systems work with text, images, audio, and video simultaneously - like having an assistant who can see, hear, write, and create visuals all at once.',
     icon: '🎨'
   },
   {
     id: 3,
     title: 'AI Agents',
-    description: 'Autonomous AI systems that can perform complex tasks, make decisions, and interact with other systems or humans to accomplish specific goals.',
+    description: 'Think of these as digital workers that can complete entire tasks on their own - whether scheduling meetings, researching topics, or solving problems without constant human guidance.',
     icon: '🕵️'
   },
   {
     id: 4,
     title: 'Retrieval-Augmented Generation',
-    description: 'Combining the generative capabilities of LLMs with the ability to retrieve and reference specific information from external knowledge sources for more accurate and verifiable outputs.',
+    description: 'AI that combines creative writing abilities with fact-checking against trusted sources. This gives you the best of both worlds: engaging content that's also accurate and reliable.',
     icon: '📚'
   },
   {
     id: 5,
     title: 'Fine-tuning & Customization',
-    description: 'Techniques to adapt pre-trained models to specific domains or tasks with relatively small amounts of data, making AI more accessible to businesses of all sizes.',
+    description: 'Tools that help adapt powerful AI to your specific needs with minimal effort. Even small teams can now teach AI their unique terminology, brand voice, and industry knowledge.',
     icon: '🔧'
   },
   {
     id: 6,
     title: 'Responsible AI Frameworks',
-    description: 'Development of tools and methodologies to ensure AI systems are fair, transparent, accountable, and aligned with human values and ethical principles.',
+    description: 'Guidelines and tools that keep AI honest, fair, and trustworthy. These frameworks help businesses use AI confidently while avoiding privacy issues and ethical pitfalls.',
     icon: '⚖️'
   }
 ];
@@ -53,8 +53,8 @@ const AIAdvances: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Recent Advances in Generative AI</h2>
           <p className="text-lg text-slalom-gray max-w-3xl mx-auto">
-            AI isn't standing still - it's sprinting ahead! These recent breakthroughs are 
-            changing the game for businesses that want to stay competitive in today's tech landscape.
+            AI is evolving rapidly, with each breakthrough creating new business opportunities. 
+            Here's what's driving innovation and giving forward-thinking companies their competitive edge.
           </p>
         </div>
         
