@@ -53,11 +53,28 @@ A responsive, modern static website built with React and TypeScript that showcas
 
 ## Deployment
 
-This site is configured for deployment to GitHub Pages. To deploy:
+This site is configured for deployment to GitHub Pages in two ways:
+
+### Manual Deployment
+
+To manually deploy the site:
 
 ```
 npm run deploy
 ```
+
+### Automated Deployment via GitHub Actions
+
+This repository includes a GitHub Actions workflow that automatically deploys the site to GitHub Pages whenever changes are pushed to the main branch.
+
+The workflow performs the following steps:
+1. Checks out the code
+2. Sets up Node.js
+3. Installs dependencies
+4. Builds the application
+5. Deploys to GitHub Pages
+
+You can also manually trigger a deployment from the Actions tab in the GitHub repository.
 
 ## License
 

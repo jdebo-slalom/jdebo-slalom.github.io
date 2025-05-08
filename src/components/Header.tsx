@@ -17,7 +17,7 @@ const Header: React.FC = () => {
                 target.src = 'https://www.slalom.com/sites/default/files/2020-10/Slalom_Logo_RGB_Digital_Blue.png';
               }}
             />
-            <span className="ml-3 text-xl font-semibold text-slalom-navy">GenAI Showcase</span>
+            <span className="ml-3 text-xl font-semibold text-slalom-navy">Slalom GenAI Showcase</span>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#advances" className="text-slalom-gray hover:text-slalom-blue transition-colors">
