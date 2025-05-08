@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-slalom-navy text-white">
+    <footer className="bg-slalom-navy dark:bg-slalom-darkBg dark:border-t dark:border-slalom-darkBorder text-white">
       <div className="section-container py-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/50">
+        <div className="border-t border-white/20 dark:border-slalom-darkBorder mt-8 pt-8 text-center text-white/50">
           <p>&copy; {currentYear} Justin DeBo. All rights reserved.</p>
         </div>
       </div>
