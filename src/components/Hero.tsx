@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-slalom-navy to-slalom-blue text-white">
+    <section className="bg-gradient-to-r from-slalom-navy to-slalom-blue text-white dark:from-black dark:to-slalom-navy transition-colors duration-200">
       <div className="section-container">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
               </a>
               <a 
                 href="#use-cases" 
-                className="px-6 py-3 bg-white text-slalom-blue font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
+                className="px-6 py-3 bg-white dark:bg-slalom-teal text-slalom-blue dark:text-slalom-navy font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
               >
                 View Use Cases
               </a>
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-16 -right-16 w-64 h-64 bg-slalom-teal rounded-full opacity-20 blur-3xl"></div>
               <div className="absolute -bottom-8 -left-8 w-48 h-48 bg-white rounded-full opacity-10 blur-2xl"></div>
-              <div className="relative z-10 bg-white/10 backdrop-blur-sm p-6 rounded-lg border border-white/20">
+              <div className="relative z-10 bg-white/10 dark:bg-slalom-navy/30 backdrop-blur-sm p-6 rounded-lg border border-white/20 dark:border-white/10 transition-colors duration-200">
                 <div className="flex items-center mb-4">
                   <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
                   <div className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
