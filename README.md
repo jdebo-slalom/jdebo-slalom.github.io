@@ -1,2 +1,64 @@
-# jdebo-slalom.github.io
-Static site for AI Demo
+# Slalom GenAI Showcase
+
+A responsive, modern static website built with React and TypeScript that showcases Generative AI advances and potential use cases across industries. This site is Slalom-branded and publicly accessible without requiring login.
+
+## Features
+
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Modern Tech Stack**: Built with React, TypeScript, and Tailwind CSS
+- **Interactive UI**: Engaging user interface with interactive elements
+- **Comprehensive Content**: Information about GenAI advances and industry use cases
+- **Slalom Branding**: Incorporates Slalom's visual identity and brand colors
+
+## Tech Stack
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Jest for testing
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/jdebo-slalom/jdebo-slalom.github.io.git
+   cd jdebo-slalom.github.io
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run deploy` - Deploys the app to GitHub Pages
+
+## Deployment
+
+This site is configured for deployment to GitHub Pages. To deploy:
+
+```
+npm run deploy
+```
+
+## License
+
+This project is proprietary and owned by Slalom, LLC.
