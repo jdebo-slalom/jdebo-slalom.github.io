@@ -75,7 +75,3 @@ The workflow performs the following steps:
 5. Deploys to GitHub Pages
 
 You can also manually trigger a deployment from the Actions tab in the GitHub repository.
-
-## License
-
-This project is proprietary and owned by Slalom, LLC.
