@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Theme transition */
-*:not(html) {
-  transition-property: background-color, border-color, color, fill, stroke;
-  transition-duration: 200ms;
-}
-
 body {
   margin: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,18 +22,18 @@ code {
   }
   
   .heading-1 {
-    @apply text-4xl md:text-5xl font-bold text-slalom-navy dark:text-white;
+    @apply text-4xl md:text-5xl font-bold text-slalom-navy;
   }
   
   .heading-2 {
-    @apply text-3xl md:text-4xl font-bold text-slalom-navy dark:text-white;
+    @apply text-3xl md:text-4xl font-bold text-slalom-navy;
   }
   
   .heading-3 {
-    @apply text-2xl md:text-3xl font-semibold text-slalom-navy dark:text-white;
+    @apply text-2xl md:text-3xl font-semibold text-slalom-navy;
   }
   
   .card {
-    @apply bg-white dark:bg-slalom-darkCard rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+    @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
   }
 }
