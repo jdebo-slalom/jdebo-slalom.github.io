@@ -3,7 +3,6 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -13,13 +12,7 @@ module.exports = {
           navy: '#002033',
           teal: '#00C4B4',
           gray: '#5E6973',
-          lightGray: '#F2F5F7',
-          // Dark mode colors
-          darkBlue: '#005A9E',
-          darkBg: '#121212',
-          darkCard: '#1E1E1E',
-          darkText: '#E0E0E0',
-          darkBorder: '#333333'
+          lightGray: '#F2F5F7'
         }
       },
       fontFamily: {
