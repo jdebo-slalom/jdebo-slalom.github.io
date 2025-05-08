@@ -11,24 +11,24 @@ const Hero: React.FC = () => {
               <span className="block text-slalom-teal">Transforming Industries</span>
             </h1>
             <p className="text-lg md:text-xl mb-6">
-              Dive into the world of generative AI and see how these powerful tools are 
-              transforming businesses in ways we never imagined possible.
+              Discover how generative AI tools are reshaping businesses today with real results - 
+              making work easier, faster, and more creative than ever before.
             </p>
             <p className="text-md md:text-lg mb-6 italic">
-              "AI is like having a tireless intern who occasionally thinks your coffee mug is a cat." — AI-generated wisdom
+              "Using AI is like having a brilliant assistant who works at light speed but occasionally mistakes your stapler for a small dinosaur." — AI-generated humor
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#advances" 
                 className="px-6 py-3 bg-slalom-teal text-slalom-navy font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
               >
-                See What's New in AI
+                Latest AI Breakthroughs
               </a>
               <a 
                 href="#use-cases" 
                 className="px-6 py-3 bg-white text-slalom-blue font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
               >
-                Real-World Examples
+                See Success Stories
               </a>
             </div>
           </div>
