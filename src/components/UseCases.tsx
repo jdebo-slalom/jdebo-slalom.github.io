@@ -93,8 +93,8 @@ const UseCases: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Transformative Use Cases</h2>
           <p className="text-lg text-slalom-gray max-w-3xl mx-auto">
-            Generative AI is creating new possibilities across industries. Explore how these 
-            technologies are being applied to solve real business challenges.
+            From healthcare to retail, generative AI is solving tough business problems in 
+            practical ways. Check out these real-world examples that are changing how companies operate.
           </p>
         </div>
         
