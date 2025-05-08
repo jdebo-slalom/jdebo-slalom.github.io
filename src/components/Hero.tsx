@@ -8,24 +8,24 @@ const Hero: React.FC = () => {
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
               Generative AI
-              <span className="block text-slalom-teal">Transforming Industries</span>
+              <span className="block text-slalom-teal">Reimagining What's Possible</span>
             </h1>
             <p className="text-lg md:text-xl mb-6">
-              Explore the latest advances in generative AI and discover how these technologies 
-              are revolutionizing businesses across industries.
+              Discover how AI is changing the game for businesses everywhere - no PhD required! 
+              See the real-world magic happening right now across industries.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
                 href="#advances" 
                 className="px-6 py-3 bg-slalom-teal text-slalom-navy font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
               >
-                Explore AI Advances
+                See What's New
               </a>
               <a 
                 href="#use-cases" 
                 className="px-6 py-3 bg-white text-slalom-blue font-medium rounded-md text-center hover:bg-opacity-90 transition-colors"
               >
-                View Use Cases
+                Real-World Examples
               </a>
             </div>
           </div>
